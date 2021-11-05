@@ -1,0 +1,60 @@
+.testimonials {
+  width: 100%;
+  margin: auto;
+}
+
+.testimonials .img-client,
+.testimonials .info-client {
+  width: 50%;
+  float: var(--float-left);
+}
+
+.img-client {
+  width: 800px;
+  height: 500px;
+}
+
+.img-client img {
+  width: 100%;
+  height: 100%;
+}
+
+.info-client {
+  padding-top: 60px;
+  text-align: start;
+}
+
+.info-client .title-info {
+  color: var(--gray-color);
+  text-transform: var(--text-upper);
+  letter-spacing: 1.5px;
+  margin-bottom: 60px;
+}
+
+.info-client .explain {
+  width: 90%;
+  font-size: 30px;
+  font-family: "Plain-Light";
+  line-height: 55px;
+  margin: 20px 0;
+}
+
+.info-client .client-info {
+  text-transform: var(--text-capitalize);
+  font-size: 18px;
+}
+
+.info-client .client-info .name-client {
+  color: var(--second-color);
+  margin-right: 5px;
+}
+
+.info-client .client-info .work-name {
+  margin-left: 5px;
+  font-size: 15px;
+  color: var(--gray-color);
+}
+
+.info-client .client-info .work-name .ceo {
+  text-transform: var(--text-upper);
+}

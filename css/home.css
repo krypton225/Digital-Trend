@@ -1,0 +1,66 @@
+.home {
+  width: 100%;
+  background: linear-gradient(
+    170deg,
+    var(--primary-color) 64%,
+    var(--white-color) 30%
+  );
+  color: var(--white-color);
+  padding: 120px 5px;
+}
+
+.ready {
+  width: 40%;
+}
+
+.working-girl {
+  width: 60%;
+}
+
+.ready,
+.working-girl {
+  float: var(--float-left);
+}
+
+.ready .ready-title {
+  font-size: 35px;
+  font-family: "Plain-Light";
+  font-weight: 600;
+  line-height: 55px;
+}
+
+.ready .discuss {
+  width: 240px;
+  color: var(--primary-color);
+  background-color: var(--white-color);
+  border: 0;
+  border-radius: var(--border-r);
+  padding: 15px;
+  margin: 25px 0;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+.ready .discuss:hover {
+  background-color: black;
+  color: var(--white-color);
+}
+
+.telephone {
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+.telephone i {
+  margin-right: 5px;
+}
+
+.working-girl {
+  width: 480px;
+  height: 300px;
+}
+
+.working-girl img {
+  width: 100%;
+}

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* height: 5000px; */
+  font-family: "Plain-Regular";
+  cursor: default;
+}
+
+@font-face {
+  font-family: "Plain-Regular";
+  src: url("../webfonts/Plain-Regular.woff2") format("woff2"),
+    url("../webfonts/Plain-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Plain-Light";
+  src: url("../webfonts/Plain-Light.woff2") format("woff2"),
+    url("../webfonts/Plain-Light.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Plain-Bold";
+  src: url("../webfonts/Plain-Bold.woff2") format("woff2"),
+    url("../webfonts/Plain-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.pd-y {
+  padding: 200px 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+  /* background-color: brown; */
+}
+
+.hero-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

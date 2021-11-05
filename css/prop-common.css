@@ -1,0 +1,8 @@
+:root {
+  --text-capitalize: capitalize;
+  --text-upper: uppercase;
+  --text-deco-none: none;
+  --float-left: left;
+  --list-style-none: none;
+  --border-r: 25px;
+}

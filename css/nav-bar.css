@@ -1,0 +1,80 @@
+header nav {
+  width: 100%;
+  height: 110px;
+  background-color: var(--menu-bg);
+  padding: 25px 20px;
+}
+
+.logo {
+  width: 50%;
+  cursor: pointer;
+}
+
+.links {
+  width: 50%;
+}
+
+.logo,
+.links {
+  float: var(--float-left);
+}
+
+.logo i {
+  font-size: 42px;
+}
+
+.logo .logo-text {
+  font-size: 30px;
+  margin-left: 5px;
+  text-transform: var(--text-capitalize);
+  font-family: "Plain-Light";
+}
+
+.logo:hover .logo-text,
+.logo:hover i {
+  color: var(--second-color);
+}
+
+.logo i,
+.logo .logo-text {
+  color: var(--white-color);
+}
+
+.links {
+  list-style: var(--list-style-none);
+}
+
+.links li {
+  display: inline-block;
+  line-height: 50px;
+  margin: 0 20px;
+}
+
+.links li a,
+.links li a.contact:hover {
+  color: var(--white-color);
+}
+
+.links li a {
+  font-size: 14px;
+  font-family: "Plain-Light";
+  text-decoration: var(--text-deco-none);
+  text-transform: var(--text-capitalize);
+  padding: 10px 5px;
+}
+
+.links li a:hover {
+  color: var(--second-color);
+}
+
+.links li a.contact {
+  border: 2px solid var(--second-color);
+  border-radius: var(--border-r);
+  padding: 8px 30px;
+  color: var(--second-color);
+  font-family: "Plain-Bold";
+}
+
+.links li a.contact:hover {
+  background-color: var(--second-color);
+}
